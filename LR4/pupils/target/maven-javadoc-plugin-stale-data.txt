@@ -1,0 +1,46 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'1.7'
+-sourcepath
+'C:/Users/khair/Desktop/211-722/“ œ/laba4/pupils/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/khair/Desktop/211-722/“ œ/laba4/pupils/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'auto 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' 'C:/Users/khair/Desktop/211-722/“ œ/laba4/pupils/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'auto 1.0-SNAPSHOT API'
+com.mycompany
+com.mycompany.auto
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\src\main\java = 1695299843402
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\allclasses-index.html = 1697819216456
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\allpackages-index.html = 1697819216463
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\element-list = 1697819216247
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\help-doc.html = 1697819216530
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\index-all.html = 1697819216514
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\index.html = 1697819216421
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\jquery-ui.overrides.css = 1697819216568
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\member-search-index.js = 1697819216476
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\module-search-index.js = 1697819216465
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\overview-summary.html = 1697819216520
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\overview-tree.html = 1697819216412
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\package-search-index.js = 1697819216468
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\script.js = 1697819216540
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\search.js = 1697819216547
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\stylesheet.css = 1697819216536
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\tag-search-index.js = 1697819216478
+C:\Users\khair\Desktop\211-722\“ œ\laba4\pupils\target\site\apidocs\type-search-index.js = 1697819216473

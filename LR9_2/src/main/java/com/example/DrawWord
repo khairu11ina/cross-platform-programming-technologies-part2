@@ -1,0 +1,129 @@
+import java.awt.*;
+import javax.swing.*;
+
+public class DrawWord extends JPanel {
+
+  @Override
+  protected void paintComponent(Graphics g) {
+    super.paintComponent(g);
+
+    // Устанавливаем начальные координаты и параметры для рисования
+    int startX = 20;
+    int startY = 100;
+    int lineWidth = 20;
+
+    // Рисуем букву "K"
+    drawK(g, startX, startY, lineWidth);
+    // Рисуем букву "H"
+    drawH(g, startX + 60, startY, lineWidth);
+    // Рисуем букву "A"
+    drawA(g, startX + 120, startY, lineWidth);
+    // Рисуем букву "Y"
+    drawY(g, startX + 180, startY, lineWidth);
+    // Рисуем букву "R"
+    drawR(g, startX + 240, startY, lineWidth);
+    // Рисуем букву "U"
+    drawU(g, startX + 300, startY, lineWidth);
+    // Рисуем букву "L"
+    drawL(g, startX + 360, startY, lineWidth);
+    // Рисуем букву "L"
+    drawL(g, startX + 420, startY, lineWidth);
+    // Рисуем букву "I"
+    drawI(g, startX + 480, startY, lineWidth);
+    // Рисуем букву "N"
+    drawN(g, startX + 540, startY, lineWidth);
+    // Рисуем букву "A"
+    drawA(g, startX + 600, startY, lineWidth);
+  }
+
+  // Метод для рисования буквы "K"
+  private void drawK(Graphics g, int x, int y, int width) {
+    g.setColor(Color.BLUE);
+    g.drawLine(x, y, x, y + 100);
+    g.drawLine(x, y + 50, x + 30, y);
+    g.drawLine(x, y + 50, x + 30, y + 100);
+  }
+
+  // Метод для рисования буквы "H"
+  private void drawH(Graphics g, int x, int y, int width) {
+    g.setColor(Color.RED);
+    g.drawLine(x, y, x, y + 100);
+    g.drawLine(x, y + 50, x + width, y + 50);
+    g.drawLine(x + width, y, x + width, y + 100);
+  }
+
+  // Метод для рисования буквы "A"
+  private void drawA(Graphics g, int x, int y, int width) {
+    g.setColor(Color.GREEN);
+    g.drawLine(x, y + 100, x + width / 2, y);
+    g.drawLine(x + width / 2, y, x + width, y + 100);
+    g.drawLine(x + 10, y + 50, x + width - 10, y + 50);
+  }
+
+  // Метод для рисования буквы "Y"
+  private void drawY(Graphics g, int x, int y, int width) {
+    g.setColor(Color.ORANGE);
+    g.drawLine(x, y, x + width / 2, y + 50);
+    g.drawLine(x + width / 2, y + 50, x + width, y);
+    g.drawLine(x + width / 2, y + 50, x + width / 2, y + 100);
+  }
+
+  // Метод для рисования буквы "R"
+  private void drawR(Graphics g, int x, int y, int width) {
+    g.setColor(Color.MAGENTA);
+    g.drawLine(x, y, x, y + 100);
+    g.drawLine(x, y, x + width, y);
+    g.drawLine(x, y + 50, x + width, y + 50);
+    g.drawLine(x, y + 50, x + width / 2, y + 100);
+  }
+
+  // Метод для рисования буквы "U"
+  private void drawU(Graphics g, int x, int y, int width) {
+    g.setColor(Color.CYAN);
+    g.drawLine(x, y, x, y + 100);
+    g.drawLine(x, y + 100, x + width, y + 100);
+    g.drawLine(x + width, y, x + width, y + 100);
+  }
+
+  // Метод для рисования буквы "L"
+  private void drawL(Graphics g, int x, int y, int width) {
+    g.setColor(Color.PINK);
+    g.drawLine(x, y, x, y + 100);
+    g.drawLine(x, y + 100, x + width, y + 100);
+  }
+
+  // Метод для рисования буквы "I"
+  private void drawI(Graphics g, int x, int y, int width) {
+    g.setColor(Color.YELLOW);
+    g.drawLine(x + width / 2, y, x + width / 2, y + 100);
+    g.drawLine(x, y, x + width, y);
+    g.drawLine(x, y + 100, x + width, y + 100);
+  }
+
+  // Метод для рисования буквы "N"
+  private void drawN(Graphics g, int x, int y, int width) {
+    g.setColor(Color.LIGHT_GRAY);
+    g.drawLine(x, y, x, y + 100);
+    g.drawLine(x, y, x + width, y + 100);
+    g.drawLine(x + width, y + 100, x + width, y);
+  }
+
+  // Метод для рисования буквы "A" (еще раз)
+  private void drawA(Graphics g, int x, int y, int width) {
+    g.setColor(Color.DARK_GRAY);
+    g.drawLine(x, y + 100, x + width / 2, y);
+    g.drawLine(x + width / 2, y, x + width, y + 100);
+    g.drawLine(x + 10, y + 50, x + width - 10, y + 50);
+  }
+
+  public static void main(String[] args) {
+    JFrame frame = new JFrame("Рисование слова по буквам");
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+    DrawWord drawWord = new DrawWord();
+    frame.add(drawWord);
+
+    frame.setSize(700, 200);
+    frame.setVisible(true);
+  }
+}
